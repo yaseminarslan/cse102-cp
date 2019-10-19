@@ -60,8 +60,8 @@ int main(){
                 }
                 fseek(fptr, loc, 0);
             }
-        fclose(fptr);
         }    
+    fclose(fptr);
 
     return 0;
 }
